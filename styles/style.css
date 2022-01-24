@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: rgb(41, 40, 40);
+    color: rgb(14, 97, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#quiz {
+    background: skyblue;
+    width: 50%;
+    padding: 4rem;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+}
+
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 2px 0;
+    color: goldenrod;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.button {
+    background-color: crimson;
+    width: 250px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: .3rem;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 40px 10px 0px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.button:hover {
+    letter-spacing: 3px;
+}
+
+#progress {
+    color: #2b2b2b;
+    font-size: 18px;
+}
+.reinicio{
+    background: crimson;
+    color: #2b2b2b;
+    padding: 10px 20px;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 18px;
+    border: none;
+    border-radius: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.reinicio:hover{
+
+    width: 95%;
+}
+@media screen and (max-width:950px) {
+    #quiz{
+        width: 70%;
+    }
+}
+@media screen and (max-width:700px) {
+    #quiz{
+        width: 80%;
+        padding: 3rem;
+    }
+    .button{
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px) {
+    h1{
+        font-size: 40px;
+    }
+    #quiz{
+        width: 90%;
+        padding: 2rem;
+    }
+    .button{
+        width: 100%;
+    }
+}
