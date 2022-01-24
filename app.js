@@ -1,7 +1,7 @@
 //@ts-check
-import { Quiz } from "./models/Quiz.js";
-import { UI } from "./models/UI.js";
-import { questions } from "./data/Question.js";
+import { Quiz } from "./Quiz.js";
+import { UI } from "./ui.js";
+import { questions } from "./Question.js";
 
 // Renderring the page
 const renderPage = (quiz, ui) => {
